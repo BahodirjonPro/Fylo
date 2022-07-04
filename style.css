@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1C2230;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+}
+nav .links {
+  margin-top: 1%;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 15px;
+  color: #B6BDC5;
+}
+nav .links a:hover {
+  color: white;
+}
+header .header-img {
+  margin: 1% 30%;
+  width: 40%;
+  height: 50%;
+}
+header .header-text {
+  text-align: center;
+}
+header .header-text h3 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin: 0 25%;
+}
+header .header-text p {
+  color: #e6e4e4;
+  margin: 1% 15%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .header-text button {
+  padding: 1% 5%;
+  border: none;
+  border-radius: 25px;
+  background-color: #41AFD0;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+}
+section .block-1 {
+  display: flex;
+}
+section .block-1 .card {
+  margin: 5%;
+  display: inline;
+  text-align: center;
+  color: white;
+}
+section .block-1 .card p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1% 5%;
+}
+section .block-1 .card h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2%;
+}
+section .block-1 .card .img {
+  width: 10%;
+}
+main {
+  margin-top: 2%;
+}
+main .stay {
+  display: flex;
+}
+main .stay img {
+  margin: 1% 5%;
+  width: 50%;
+  height: 60%;
+}
+main .stay .stay-text {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 12% 0;
+}
+main .stay .stay-text h1 {
+  margin: 3% 0;
+}
+main .stay .stay-text p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1%;
+}
+main .stay .stay-text .link-stay {
+  display: flex;
+  margin: 5% 0;
+}
+main .stay .stay-text .link-stay img {
+  margin-top: -1px;
+  margin-left: 5px;
+}
+main .stay .stay-text .link-stay a {
+  text-decoration: none;
+  color: #60DCD5;
+}
+.accounts {
+  display: flex;
+  justify-content: center;
+}
+.accounts .card-account {
+  border-radius: 5px;
+  margin: 5% 2%;
+  background-color: #21293C;
+  color: white;
+  padding: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.accounts .card-account .account-info {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+.accounts .card-account .account-info .name {
+  margin: 2%;
+}
+.accounts .card-account .account-info img {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+.get-start {
+  background-color: #1B222F;
+  margin: 5% 15%;
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2%;
+  box-shadow: rgba(0, 0, 0, 0.514) 5px 5px 15px;
+}
+.get-start p {
+  margin: 1%;
+}
+.get-start .inputer #email {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+.get-start .inputer #email::placeholder {
+  padding: 3%;
+}
+.get-start .inputer button {
+  height: 40px;
+  padding: 1% 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #4ABFD1;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+footer .fylo-about {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 2%;
+}
+footer .fylo-about p {
+  text-align: left;
+  margin-right: 50%;
+}
+@media (max-width: 500px) {
+  .accounts {
+    flex-direction: column;
+  }
+  .inputer button {
+    margin-top: 1%;
+  }
+  .stay {
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+  }
+}
+@media (max-width: 425px) {
+  .block-1 {
+    flex-direction: column;
+  }
+  .links {
+    font-size: 15px;
+  }
+  .logo img {
+    width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  .links {
+    font-size: 12px;
+  }
+}
